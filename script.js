@@ -1,8 +1,6 @@
 const menuToggle = document.getElementById('mobile-menu');
 const navMenu = document.getElementById('nav-menu');
 const navLinks = document.querySelectorAll('.nav-links a');
-
-// Fungsi Klik Hamburger
 if (menuToggle && navMenu) {
     menuToggle.addEventListener('click', () => {
         menuToggle.classList.toggle('active');
